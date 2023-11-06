@@ -1,15 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-
-}
-
 .main{
     width: 100%;
     background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(newbb.jpg);
     background-position: center;
     background-size: cover;
-    height: 130vh;
+    height: 1000px;
+    width:1800px;
 }
 
 .right-col{
@@ -79,9 +74,10 @@ ul li a:hover{
     color: orange;
 }
 .search{
-    width: 330px;
+    width: 600px;
     float: left;
     margin-left: 1070px;
+    color:orange;
 
 }
 .srch{
@@ -89,10 +85,10 @@ ul li a:hover{
     width: 200px;
     height: 40px;
     background: transparent;
-    border: 1px solid orange;
+    border: 2px solid orange;
     margin-top: 13px;
-    color: white;
-    border-right: none;
+    color: rgb(255, 255, 255);
+    border-right:#ff7200;
     font-size:16px;
     float: left;
     padding: 10px;
@@ -101,10 +97,10 @@ ul li a:hover{
 
 }
 .btn{
-    width: 80px;
+    width: 100px;
     height: 40px;
     background: orange;
-    border: 2px solid orange;
+    border: 5px solid orange;
     margin-top: 13px;
     color: white;
     font-size: 15px;
@@ -185,7 +181,7 @@ ul li a:hover{
 }
 .form{
     width: 450px;
-    height: 500px;
+    height: 528px;
     background: linear-gradient(to top,rgba(96, 174, 198, 0.8)50%,rgba(112, 212, 197, 0.8)50%);
     position: absolute;
     top: 250px;
@@ -207,7 +203,7 @@ ul li a:hover{
 }
 .form input{
     width: 380px;
-    height: 20px;
+    height: 15px;
     background: transparent;
     border-bottom: 1px solid orange;
     border-top: none;
@@ -362,12 +358,17 @@ ul li a:hover{
     color: #fff;
 }
 .icons ion-icon{
+
     color: #fff;
+    height:30px;
     font-size: 35px;
     padding-left: 44px;
-    padding-top: 10px;
     transition: 0.3s ease;
 }
 .icons ion-icon:hover{
     color: #ff7200;
 }
+
+
+   
+    
